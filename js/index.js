@@ -103,11 +103,30 @@ const users = [
     
 // }
 
-let i = 0;
+// for (;cars[i];) {
+//   text += cars[i] + "<br>";
+//   i++;
 
-do{
-  console.log(`Email: ${users[i].email} phone: ${users[i].phone }`);
-  i++
-}
- while (i < users.length) 
 
+// let i = 0;
+// let text = "" ;
+
+// do{
+//   console.log(`Email:  ${(users[i].email)} phone: ${users[i].phone }`);
+//   i++
+//   // text += cars[i] + "<br>";
+// //   i++;
+// }
+//  while (i < users.length) 
+
+
+  // for (let i = 0; i < users.length; i++) {
+  //   console.log(`Name: ${users[i].name}  Zip: ${users[i].address.zip} `)
+  // }
+
+  let i = 0 ;
+
+  while (i <2 && i <users.length) {
+    console.log(`Name: ${users[i].email}  Zip: ${users[i].address.state} `);
+    i++ ;
+  }
