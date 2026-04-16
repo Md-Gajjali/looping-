@@ -105,8 +105,9 @@ const users = [
 
 let i = 0;
 
-// do(
-//   console.log(),
-//   i++
-// ) while (i < users.length) 
+do{
+  console.log(`Email: ${users[i].email} phone: ${users[i].phone }`);
+  i++
+}
+ while (i < users.length) 
 
