@@ -1,11 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
-    max-width: 800px;
+    font-family: "Geist", sans-serif;
+    width: 1110px;
     margin: 0 auto;
     padding: 20px;
 }
 
-#demo {
+/* #demo {
     list-style-type: none;
     padding: 0;
 }
@@ -15,4 +15,28 @@ body {
     margin: 5px 0;
     padding: 10px;
     border-left: 4px solid #007bff;
+} */
+
+/* navbar */
+
+.KeenKeeper{
+    color: #244D3F;
+    font-size: 24px;
 }
+
+.nav_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 16px 12 px;
+    color: white;
+    background: #244D3F;
+    font-size: 16px;
+    
+
+}
+
+/* navbar */
