@@ -100,9 +100,66 @@ const users = [
 // for (let i = 0; i < users.length; i++) {
 //   console.log(`Name: ${users[i].name} Zip: ${users[i].address.street}`)
 // }
-let i = 0 ;
-let text = ''
-do{
-   console.log(`Name: ${users[i].name} Zip: ${users[i].address.street}`);
-   i++
-}while( i < users.length)
+// let i = 0 ;
+// let text = ''
+// do{
+//    console.log(`Name: ${users[i].name} Zip: ${users[i].address.street}`);
+//    i++
+// }while( i < users.length)
+
+
+// counter
+// const counters = document.querySelectorAll(".counter");
+
+// counters.forEach(counter => {
+//   let target = counter.getAttribute("data-target");
+//   let count = 0;
+
+//   let interval = setInterval(() => {
+//     count++;
+
+//     counter.innerText = count;
+
+//     if (count == target) {
+//       clearInterval(interval);
+//     }
+//   }, 30); // speed (50ms)
+// });
+
+// const counters = document.querySelectorAll(".counter");
+
+// counters.forEach(counter => {
+
+//   let target = +counter.getAttribute("data-target");
+//   let count = 0 ;
+
+//   let interval = setInterval(() => {
+
+//     count++;
+//     counter.innerText= count;
+
+//     if (count == target ) {
+//       clearInterval(interval);
+//     }
+
+//   }, 30);
+// })
+
+
+const counters = document.querySelectorAll(".counter")
+
+counters.forEach(counter => {
+
+  let target = +counter.getAttribute("data-target")
+  let count = 0 ;
+
+  let interval = setInterval(() => {
+    count++;
+    counter.innerText= count ;
+
+    if (target == count) {
+      clearInterval(interval)
+    }
+  }, 30);
+})
+// counter
