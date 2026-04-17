@@ -96,3 +96,19 @@ body {
 
 
 /* hero_section */
+
+/* counter_section */
+.counter_div{
+    width: 259px;
+    padding: 32px;
+    color: #244D3F;
+    text-align: center;
+    background: white;
+}
+
+.counter_flex{
+    gap: 24px;
+    margin-top: 40px;
+    display: flex;
+}
+/* counter_section */
