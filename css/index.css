@@ -31,12 +31,23 @@ body {
 }
 
 .btn{
-    padding: 16px 12 px;
+    padding: 16px 12px;
+    color: #244D3F;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover .btn-icon {
+    stroke: white;
+}
+
+.btn:hover{
     color: white;
     background: #244D3F;
-    font-size: 16px;
-    
-
+    cursor: pointer;
 }
 
 /* navbar */

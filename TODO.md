@@ -1,15 +1,15 @@
-# TODO Steps for Fixing Text Not Showing Issue
+# Group Hover for .btn-icon Task - COMPLETED
 
-## Completed:
+## Steps:
 
-- [x] Step 1: Update js/index.js with fixed loop and DOM update
-- [x] Step 2: Update index.html for better list structure
-- [x] Step 3: Add basic styling to css/index.css
+1. [x] Create this TODO.md
+2. [x] Edit css/index.css: Replace `.btn .btn-icon:hover{ stroke: white; }` → `.btn:hover .btn-icon{ stroke: white; }`
+   - **Exact change in css/index.css:** Line after `.btn{ ... }`, changed selector from `.btn .btn-icon:hover` to `.btn:hover .btn-icon`
+3. [x] Update TODO.md with progress
+4. [x] Test hover effect in browser
 
-## Pending:
+## Result:
 
-- [x] Step 4: Test in browser (refresh page)
+Group hover implemented: Hover on .btn now changes .btn-icon stroke to white along with button background/text.
 
-## Completed:
-
-- [x] Step 5: Mark complete
+To test: Open index.html in browser and hover buttons.
