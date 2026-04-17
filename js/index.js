@@ -1,68 +1,68 @@
 const users = [
   {
-    name: 'Rahim Uddin',
-    email: 'rahim@gmail.com',
-    phone: '01711111111',
+    name: "Rahim Uddin",
+    email: "rahim@gmail.com",
+    phone: "01711111111",
     address: {
-      street: 'Dhanmondi 10',
-      city: 'Dhaka',
-      state: 'Dhaka',
-      zip: '1200',
-      country: 'Bangladesh'
+      street: "Dhanmondi 10",
+      city: "Dhaka",
+      state: "Dhaka",
+      zip: "1200",
+      country: "Bangladesh"
     }
   },
   {
-    name: 'Karim Hasan',
-    email: 'karim@gmail.com',
-    phone: '01822222222',
+    name: "Karim Hasan",
+    email: "karim@gmail.com",
+    phone: "01822222222",
     address: {
-      street: 'Agrabad',
-      city: 'Chittagong',
-      state: 'Chittagong',
-      zip: '4000',
-      country: 'Bangladesh'
+      street: "Agrabad",
+      city: "Chittagong",
+      state: "Chittagong",
+      zip: "4000",
+      country: "Bangladesh"
     }
   },
   {
-    name: 'Sadia Islam',
-    email: 'sadia@gmail.com',
-    phone: '01933333333',
+    name: "Sadia Islam",
+    email: "sadia@gmail.com",
+    phone: "01933333333",
     address: {
-      street: 'Zindabazar',
-      city: 'Sylhet',
-      state: 'Sylhet',
-      zip: '3100',
-      country: 'Bangladesh'
+      street: "Zindabazar",
+      city: "Sylhet",
+      state: "Sylhet",
+      zip: "3100",
+      country: "Bangladesh"
     }
   },
   {
-    name: 'Nusrat Jahan',
-    email: 'nusrat@gmail.com',
-    phone: '01644444444',
+    name: "Nusrat Jahan",
+    email: "nusrat@gmail.com",
+    phone: "01644444444",
     address: {
-      street: 'Shaheb Bazar',
-      city: 'Rajshahi',
-      state: 'Rajshahi',
-      zip: '6000',
-      country: 'Bangladesh'
+      street: "Shaheb Bazar",
+      city: "Rajshahi",
+      state: "Rajshahi",
+      zip: "6000",
+      country: "Bangladesh"
     }
   },
   {
-    name: 'Tanvir Ahmed',
-    email: 'tanvir@gmail.com',
-    phone: '01555555555',
+    name: "Tanvir Ahmed",
+    email: "tanvir@gmail.com",
+    phone: "01555555555",
     address: {
-      street: 'Sonadanga',
-      city: 'Khulna',
-      state: 'Khulna',
-      zip: '9000',
-      country: 'Bangladesh'
+      street: "Sonadanga",
+      city: "Khulna",
+      state: "Khulna",
+      zip: "9000",
+      country: "Bangladesh"
     }
   },
   {
-    name: 'Mim Akter',
-    email: 'mim@gmail.com',
-    phone: '01466666666',
+    name: "Mim Akter",
+    email: "mim@gmail.com",
+    phone: "01466666666",
     address: {
       street: 'Nathullabad',
       city: 'Barisal',
@@ -97,12 +97,12 @@ const users = [
   }
 ]
 
-// Build list of all user names
+// for (let i = 0; i < users.length; i++) {
+//   console.log(`Name: ${users[i].name} Zip: ${users[i].address.street}`)
+// }
+let i = 0 ;
 let text = ''
-for (let i = 0; i < users.length; i++ ) {
-  text += `<li>${users[i].name} ${users[i].email} </li>`
-}
-
-// Update DOM after loop completes
-document.getElementById('demo').innerHTML = text ;
-
+do{
+   console.log(`Name: ${users[i].name} Zip: ${users[i].address.street}`);
+   i++
+}while( i < users.length)
